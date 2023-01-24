@@ -1,0 +1,10 @@
+#accueil .navbar{
+    background-color: #030C40!important;
+}
+#accueil .navbar .nav-link{
+    color: #ffffff;
+}
+
+#accueil .header{
+    text-align: center!important;
+}

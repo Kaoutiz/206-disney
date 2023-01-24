@@ -19,3 +19,15 @@ h1, h2, h3, h4, h5, h6, li{
 .container{
     padding: 10px;
 }
+
+/* DÉBUT : BANNER */
+#banner{
+    background-image: url("../attraction.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 20%;
+    height: 60vh;
+    border-radius: 0% 0% 50% 50% / 0% 0% 20% 20%;
+}
+
+/* FIN : BANNER */
