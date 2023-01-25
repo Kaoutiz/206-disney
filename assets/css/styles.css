@@ -22,12 +22,36 @@ h1, h2, h3, h4, h5, h6, li{
 
 /* DÉBUT : BANNER */
 #banner{
-    background-image: url("../attraction.jpg");
+    background-image: url("../attraction.jpg"); 
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 20%;
     height: 60vh;
     border-radius: 0% 0% 50% 50% / 0% 0% 20% 20%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: inset 100vw 100vh #030C4040;
+}
+
+#banner h1{
+    color: #ffffff;
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 15vh;
+    text-align: center;
+}
+
+#banner .container{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 50vw;
+}
+#banner .container .col{
+    width: 10%;
+    height: 100px;
 }
 
 /* FIN : BANNER */
