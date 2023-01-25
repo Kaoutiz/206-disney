@@ -28,9 +28,18 @@
         <h1>Venez découvrir la nouvelle attraction Spider-man !</h1>
         <div class="container">
             <div class="row">
-                <div class="col"></div>
-                <div class="col"></div>
-                <div class="col"></div>
+                <div class="col">
+                    <i class='bx bx-news' ></i>
+                    <p>Suivez nos dernières nouveautés</p>
+                </div>
+                <div class="col">
+                    <i class='bx bx-book-open' ></i>
+                    <p>Réservez votre séjour</p>
+                </div>
+                <div class="col">
+                    <i class='bx bxs-building-house' ></i>
+                    <p>Visualisez les hébergements</p>
+                </div>
             </div>
         </div>
     </section>
@@ -40,29 +49,30 @@
 
     <!-- BEGIN: Acualités -->
     <section id="actualites">
+        <h2>Nos actualités</h2>
         <div id="container">
-            <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="..." alt="Card image cap">
+            <div class="card">
+                <img class="card-img-top" src="assets/marvel-studio.jpg" alt="Affiche pour les nouvelles attractions Marvel">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <h5 class="card-title">Rejoignez l'Univers MARVEL</h5>
+                    <p class="card-text">Nouvelle recrue, venez découvrir le nouveau land Marvel Avengers Campus au Parc Walt Disney Studios ! Passez à l’action dans nos 2 nouvelles attractions, et bien plus…</p>
+                    <a href="#" class="btn  ">En savoir plus</a>
                 </div>
             </div>
-            <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="..." alt="Card image cap">
+            <div class="card">
+                <img class="card-img-top" src="assets/30ans.jpg" alt="Chateau Disneyland Paris pour ses 30ans">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <h5 class="card-title">Le 30e Anniversaire de Disneyland Paris</h5>
+                    <p class="card-text">Êtes-vous prêts à prendre part à une incroyable célébration ? Après 30 années de rêve, la magie ne fait que commencer.</p>
+                    <a href="#" class="btn">En savoir plus</a>
                 </div>
             </div>
-            <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="..." alt="Card image cap">
+            <div class="card">
+                <img class="card-img-top" src="assets/attraction-iconique.jpg" alt="Attraction train de la mine Disneyland Paris">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <h5 class="card-title">Embarquez dans des attractions iconiques</h5>
+                    <p class="card-text">Avec 50 attractions, que vous soyez en quête d’adrénaline ou d’immersion dans nos univers Disney, Pixar, MARVEL et Star Wars… il y en a pour tous les goûts !</p>
+                    <a href="#" class="btn">En savoir plus</a>
                 </div>
             </div>
         </div>

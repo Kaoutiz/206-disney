@@ -18,16 +18,16 @@
                         <a class="nav-link" href="#accueil">Accueil</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="#actualité">Actualités</a>
+                        <a class="nav-link" href="#actualites">Actualités</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#hotel">Hôtel</a>
+                        <a class="nav-link" href="#herbergements">Hôtel</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#offres">Offres</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#reservation">Réservation</a>
+                        <a class="nav-link" href="#reservations">Réservation</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#acces">Accès</a>
