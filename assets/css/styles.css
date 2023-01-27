@@ -8,10 +8,204 @@ body{
 }
 
 section{
-    width: 960px;
-    margin: auto;
+    width: 100%;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
+
+@media screen and (max-width: 930px) {
+    section{
+        width: 100%;
+    }
+  }
 
 h1, h2, h3, h4, h5, h6, li{
     font-family: 'Matterhorn', sans-serif;
 }
+
+h1{
+    font-size: 40px;
+}
+
+.container{
+    padding: 10px;
+    width: 960px !important;
+    margin: auto;
+}
+
+/* DÉBUT : BANNER */
+#banner{
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("../images/attraction.jpg");
+    background-size: cover;
+    background-position: 50% 20%;
+    height: 560px;
+    border-radius: 0% 0% 50% 50% / 0% 0% 20% 20%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#banner h1{
+    color: #ffffff;
+    font-weight: bold;
+    margin-top: 150px;
+    text-align: center;
+}
+
+#banner #nav-banner{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 960px;
+}
+
+#banner #nav-banner .row{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+
+#banner #nav-banner .items{
+    text-align: center;
+    border-radius: 10px;
+    height: 100px;
+}
+
+#banner #nav-banner .items:hover{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+#banner #nav-banner a{
+    text-decoration: none;
+    color: #212529;
+    display: flex;
+}
+
+#banner #nav-banner .items i{
+    font-size: 30px;
+}
+
+#banner #nav-banner .items p{
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+/* FIN : BANNER */
+
+/* DÉBUT : Actualités */
+
+#actualites h2{
+    text-align: center;
+}
+
+#actualites .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#actualites .container .card{
+    width: 300px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    transition: box-shadow 0.5s;
+}
+
+#actualites .container .card:hover{
+    box-shadow: #006EF540 -5px 5px, #006EF530 -10px 10px, #006EF520 -15px 15px, #006EF510 -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+}
+
+#actualites .container .card p{
+    font-size: 14px;
+    max-height: 150px;
+    min-height: 150px;
+}
+
+#actualites .container .card a{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 150px;
+    border: 2px solid #006EF5;
+    color: #006EF5;
+    transition: color, background-color 1s;
+}
+
+#actualites .container .card a:hover{
+    color: #ffffff;
+    background-color: #006EF5;
+}
+/* FIN : Actualités */
+
+/* DEBUT: RESERVATION */
+
+section#reservations{
+    background: #030C40;
+}
+
+section#reservations #calendar, section#reservations #filter{
+    min-height: 450px;
+    border-radius: 16px;
+    background: #ffffff;
+    padding: 20px;
+}
+
+section#reservations #calendar #calendar-header img{
+    margin-right: 8px;
+    min-width: 32px;
+}
+
+/* FIN: RESERVATION */
+
+/* DEBUT: RESPONSIVE */
+@media screen and (max-width: 930px) {
+
+    /* DEBUT: RESPONSIVE Actualités */
+
+    #actualites #container{
+        flex-direction: column;
+        align-items: center;
+    }
+    #actualites #container .card{
+        width: auto;
+        margin-right: 20vw;
+        margin-left: 20vw;
+        margin-bottom: 2em;
+    }
+    #actualites #container .card p{
+        max-height: 7rem;
+        min-height: 7rem;
+        overflow: hidden;
+    }
+    #actualites #container .card a{
+        width: 80%;
+    }
+
+    /* FIN: RESPONSIVE Actualités */
+
+    /* DEBUT: RESPONSIVE BANNER */
+
+    #banner .container{
+        border-radius: 10px;
+        width: 80vw;
+    }
+
+    #banner .container .col{
+        text-align: center;
+        padding-top: 10px;
+        border-radius: 10px;
+    }
+
+    #banner .container a{
+        min-width: 30%;
+        width: auto;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+    /* FIN: RESPONSIVE BANNER */
+  }
+/* FIN: RESPONSIVE */
