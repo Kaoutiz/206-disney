@@ -12,6 +12,9 @@
     </div>
     <nav class="navbar navbar-expand-sm sticky-top navbar-light bg-light">
         <div class="container d-flex">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar1" aria-controls="navbar1" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
             <div class="collapse navbar-collapse justify-content-center" id="navbar1">
                 <ul class="navbar-nav">
                     <li class="nav-item active">

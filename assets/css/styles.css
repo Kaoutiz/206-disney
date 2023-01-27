@@ -12,6 +12,12 @@ section{
     margin: auto;
 }
 
+@media screen and (max-width: 930px) {
+    section{
+        width: 100%;
+    }
+  }
+
 h1, h2, h3, h4, h5, h6, li{
     font-family: 'Matterhorn', sans-serif;
 }
@@ -49,12 +55,26 @@ h1, h2, h3, h4, h5, h6, li{
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     width: 50vw;
 }
+#banner .container .row{
+    display: flex;
+    justify-content: center;
+}
 #banner .container .col{
-    width: 10%;
-    height: 100px;
     text-align: center;
     margin-right: 5%;
     margin-left: 5%;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+#banner .container .col:hover{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+#banner .container a{
+    text-decoration: none;
+    color: #212529;
+    width: 33%;
+    height: 100px;
+    display: flex;
 }
 #banner .container .col i{
     font-size: 1.8em;
@@ -63,7 +83,25 @@ h1, h2, h3, h4, h5, h6, li{
     font-size: 0.9em;
     font-weight: bold;
 }
-
+/* RESPONSIVE */
+@media screen and (max-width: 930px) {
+    #banner .container{
+        border-radius: 10px;
+        width: 80vw;
+    }
+    #banner .container .col{
+        text-align: center;
+        padding-top: 10px;
+        border-radius: 10px;
+    }
+    #banner .container a{
+        min-width: 30%;
+        width: auto;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+  }
+/* FIN RESPONSIVE */
 /* FIN : BANNER */
 
 /* DÉBUT : Actualités */
@@ -108,4 +146,27 @@ h1, h2, h3, h4, h5, h6, li{
     color: #ffffff;
     background-color: #006EF5;
 }
+
+/* RESPONSIVE */
+@media screen and (max-width: 930px) {
+    #actualites #container{
+        flex-direction: column;
+        align-items: center;
+    }
+    #actualites #container .card{
+        width: auto;
+        margin-right: 20vw;
+        margin-left: 20vw;
+        margin-bottom: 2em;
+    }
+    #actualites #container .card p{
+        max-height: 7rem;
+        min-height: 7rem;
+        overflow: hidden;
+    }
+    #actualites #container .card a{
+        width: 80%;
+    }
+  }
+  /* FIN RESPONSIVE */
 /* FIN : Actualités */

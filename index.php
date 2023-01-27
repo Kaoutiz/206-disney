@@ -28,18 +28,27 @@
         <h1>Venez découvrir la nouvelle attraction Spider-man !</h1>
         <div class="container">
             <div class="row">
-                <div class="col">
-                    <i class='bx bx-news' ></i>
-                    <p>Suivez nos dernières nouveautés</p>
-                </div>
-                <div class="col">
-                    <i class='bx bx-book-open' ></i>
-                    <p>Réservez votre séjour</p>
-                </div>
-                <div class="col">
-                    <i class='bx bxs-building-house' ></i>
-                    <p>Visualisez les hébergements</p>
-                </div>
+                <a href="#actualites">
+                    <div class="col">
+                        <i class='bx bx-news'></i>
+                        <p>Nos nouveautés</p>
+
+                    </div>
+
+                </a>
+
+                <a href="#actualites">
+                    <div class="col">
+                        <i class='bx bx-book-open'></i>
+                        <p>Réservez votre séjour</p>
+                    </div>
+                </a>
+                <a href="#actualites">
+                    <div class="col">
+                        <i class='bx bxs-building-house'></i>
+                        <p>Visualisez les hébergements</p>
+                    </div>
+                </a>
             </div>
         </div>
     </section>
