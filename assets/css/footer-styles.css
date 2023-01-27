@@ -1,0 +1,60 @@
+/* DEBUT : menu-footer */
+footer {
+  background-color: #030C40;
+  padding: 3vw 0 0.4vw 0;
+}
+
+.footer-menu {
+  color: #030C40;
+  background-color: #ffffff;
+  border-radius: 0.6vw !important;
+}
+
+.nav-pills {
+  --bs-nav-pills-link-active-bg: #030C40;
+  --bs-nav-link-color: #030C40;
+}
+
+.tab-content {
+  margin: 2vw;
+}
+
+.rounded-nav {
+  border-radius: 3vw !important;
+}
+
+.rounded-nav .nav-link {
+  border-radius: 3vw !important;
+}
+/* FIN : menu-footer */
+
+/* DEBUT : form-footer */
+.form-control {
+  margin: 1vw 0 1vw 0;
+}
+
+.infos-form {
+  color: #030C40;
+  border-right: solid 1px #030C40;
+}
+
+.btn-primary {
+  background-color: #030C40;
+  border: none;
+  float: right;
+}
+/* FIN : form-footer */
+
+/* DEBUT : socials-footer */
+.socials-footer a {
+  border-radius: 22px;
+  font-size: 20px;
+}
+
+.phone-footer {
+  border: solid 1px #030C40;
+  border-radius: 22px;
+  float: right;
+}
+
+/* FIN : socials-footer */
