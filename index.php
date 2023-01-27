@@ -37,13 +37,13 @@
 
                 </a>
 
-                <a href="#actualites">
+                <a href="#reservations">
                     <div class="col">
                         <i class='bx bx-book-open'></i>
                         <p>Réservez votre séjour</p>
                     </div>
                 </a>
-                <a href="#actualites">
+                <a href="#herbergements">
                     <div class="col">
                         <i class='bx bxs-building-house'></i>
                         <p>Visualisez les hébergements</p>
