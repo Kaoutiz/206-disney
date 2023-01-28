@@ -29,6 +29,7 @@ window.addEventListener('scroll',function(){
 
                 if(items[i].getAttribute("href") == "#actualites"){
                     items[i].classList.add("active-nav");
+                    document.getElementById("actualites").children[1].style.animation = "fadeIn 2s forwards"
                 }
             } 
         }
@@ -41,6 +42,7 @@ window.addEventListener('scroll',function(){
 
                 if(items[i].getAttribute("href") == "#herbergements"){
                     items[i].classList.add("active-nav");
+                    document.getElementById("herbergements").children[0].style.animation = "fadeIn 2s forwards"
                 }
             } 
         }
@@ -53,8 +55,21 @@ window.addEventListener('scroll',function(){
 
                 if(items[i].getAttribute("href") == "#reservations"){
                     items[i].classList.add("active-nav");
+                    document.getElementById("reservations").children[1].style.animation = "fadeIn 2s forwards"
                 }
             } 
+        }
+
+        // On vérifie si on est sur la section "offre" pour modifier le active du nav
+        if(window.scrollY + 100 >= document.getElementById("offre").offsetTop)
+        {
+            document.getElementById("offre").children[0].style.animation = "fadeIn 2s forwards"
+        }
+
+        // On vérifie si on est sur la section "offre" pour modifier le active du nav
+        if(window.scrollY + 100 >= document.getElementById("acces").offsetTop)
+        {
+            document.getElementById("acces").children[0].style.animation = "fadeIn 2s forwards"
         }
 
     }else{
