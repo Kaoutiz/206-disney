@@ -269,7 +269,12 @@ section#reservations #calendar #estimation{
     align-items: baseline;
     width: 100%;
 }
-section#reservations #calendar #estimation #price_estimation{
+section#reservations #calendar #estimation .price_estimation{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+section#reservations #calendar .hotel_choice{
     font-size: 18px;
     font-weight: bold;
 }

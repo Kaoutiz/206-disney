@@ -116,9 +116,9 @@
                     </select>
                     <label for="hotel" class="mb-2">Hôtels</label>
                     <select name="hotel" id="hotel" class="form-select mb-3">
-                        <option value="cheyenne" select>Disney Hotel Cheyenne ★★★</option>
-                        <option value="santa-fe">Disney Hotel Santa Fe ★★</option>
-                        <option value="newport-bay-club">Disney Hotel Newport Bay Club ★★★★</option>
+                        <option value="Disney Hotel Cheyenne ★★★" select>Disney Hotel Cheyenne ★★★</option>
+                        <option value="Disney Hotel Santa Fe ★★">Disney Hotel Santa Fe ★★</option>
+                        <option value="Disney Hotel Newport Bay Club ★★★★">Disney Hotel Newport Bay Club ★★★★</option>
                     </select>
                 </div>
                 <div id="budget">
@@ -503,9 +503,10 @@
                     </div>
                 </div>
                 <div id="estimation" class="d-none">
-                    <h2 id="price_estimation">Estimation du prix du séjour: <span id="price_value"></span>€</h2>  
+                    <h2 class="price_estimation">Estimation du prix du séjour: <span id="price_value"></span>€</h2>  
                     <a href="#"><button id="next-calendar-btn" class="btn btn-primary rounded-pill d-flex align-items-center"><span>Continuer</span> <i class='bx bx-chevron-right'></i></button></a>
                 </div>
+                <h2 class="hotel_choice d-none" id="hotel_value"></h2>  
             </div>
         </div>
     </section>

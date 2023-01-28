@@ -5,6 +5,12 @@ let durationValue = document.getElementById("duration_value");
 
 duration.addEventListener("change", function(){
   durationValue.textContent = duration.value;
+
+  // On remet à zero la selection si il y en avait une
+  let estimation = document.getElementById("estimation");
+  let hotelValue = document.getElementById("hotel_value");
+  estimation.classList.add("d-none");
+  hotelValue.classList.add("d-none");
 });
 
 
@@ -125,6 +131,12 @@ rangeInput.forEach((input) => {
       let calendar = document.getElementById("calendar-body");
       let priceDay = calendar.getElementsByClassName("price_value");
 
+      // On remet à zero la selection si il y en avait une
+      let estimation = document.getElementById("estimation");
+      let hotelValue = document.getElementById("hotel_value");
+      estimation.classList.add("d-none");
+      hotelValue.classList.add("d-none");
+
       // On fait une boucle sur tous les jours du calendrier et on modifie sa couleur selon le filtre du budget
       for(let i = 0; i < priceDay.length; i++){
 
@@ -169,13 +181,25 @@ rangeInput.forEach((input) => {
 
 let estimation = document.getElementById("estimation");
 let priceValue = document.getElementById("price_value");
+let hotelSelected = document.getElementById("hotel");
+let hotelValue = document.getElementById("hotel_value");
 let days = document.getElementsByClassName("days");
+
+hotelSelected.addEventListener("change", function(){
+    hotelValue.textContent = hotelSelected.value;
+
+    // On remet à zero la selection si il y en avait une
+    estimation.classList.add("d-none");
+    hotelValue.classList.add("d-none");
+});
 
 for(let i = 0; i < days.length; i++){
 
   days[i].addEventListener("click", function(){
     estimation.classList.remove("d-none");
     priceValue.textContent = days[i].children[1].children[0].textContent;
+    hotel_value.classList.remove("d-none");
+    hotelValue.textContent = hotelSelected.value;
   });
 
 }
