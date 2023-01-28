@@ -13,6 +13,12 @@ section{
     padding-top: 20px;
 }
 
+@media screen and (max-width: 930px) {
+    section{
+        width: 100%;
+    }
+  }
+
 h1, h2, h3, h4, h5, h6, li{
     font-family: 'Matterhorn', sans-serif;
 }
@@ -239,7 +245,6 @@ section#reservations #calendar #calendar-body .days p.price{
 @media screen and (max-width: 930px) {
 
     /* DEBUT: RESPONSIVE Actualités */
-
     #actualites #container{
         flex-direction: column;
         align-items: center;
