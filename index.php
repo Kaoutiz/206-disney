@@ -506,7 +506,10 @@
                     <h2 class="price_estimation">Estimation du prix du séjour: <span id="price_value"></span>€</h2>  
                     <a href="#"><button id="next-calendar-btn" class="btn btn-primary rounded-pill d-flex align-items-center"><span>Continuer</span> <i class='bx bx-chevron-right'></i></button></a>
                 </div>
-                <h2 class="hotel_choice d-none" id="hotel_value"></h2>  
+                <div id="info_choice" class="d-none"> 
+                    <h2 class="hotel_choice" id="hotel_value"></h2>  
+                    <p class="duree_choice"><span id="jour_value"></span> / <span id="nuit_value"></span></p> 
+                </div>  
             </div>
         </div>
     </section>
