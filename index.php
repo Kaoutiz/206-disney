@@ -186,7 +186,7 @@
                             <i class='bx bx-chevron-left'></i>
                         </div>
                         <h4>Février 2023</h4>
-                        <h4>Mars 2023</h4>
+                        <h4 class="mounth-next">Mars 2023</h4>
                         <div class="border border-dark rounded-circle align-items-center">
                             <i class='bx bx-chevron-right'></i>
                         </div>
@@ -565,15 +565,15 @@
     <!-- END: Footer -->
 
     <!-- BEGIN: Scripts -->
-    <script src="assets/js/scripts.js"></script>
+    <script src="assets/js/filter.js"></script>
+    <script src="assets/js/nav.js"></script>
 
     <!-- BEGIN: Library -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <!-- END: Library -->
-    <script src="assets/js/filter.js"></script>
-    <script src="assets/js/nav.js"></script>
+    
     <!-- END: Scripts -->
 </body>
 
