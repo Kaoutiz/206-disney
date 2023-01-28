@@ -4,7 +4,7 @@
     <div class="header bg-light py-3">
         <div class="container">
             <div class="row">
-                <a href="#accueil" title="Retour accueil"><img id="logo_header" src="./assets/logo.svg" width="200" height="50" alt="Logo Disneyland Paris"></a>
+                <a href="#accueil" title="Retour accueil"><img id="logo_header" src="./assets/images/logo.svg" width="200" height="50" alt="Logo Disneyland Paris"></a>
             </div>
             <!--/row-->
         </div>

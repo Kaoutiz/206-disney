@@ -8,8 +8,9 @@ body{
 }
 
 section{
-    width: 960px;
-    margin: auto;
+    width: 100%;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 @media screen and (max-width: 930px) {
@@ -22,133 +23,228 @@ h1, h2, h3, h4, h5, h6, li{
     font-family: 'Matterhorn', sans-serif;
 }
 
+h1{
+    font-size: 40px;
+}
+
 .container{
     padding: 10px;
+    width: 960px !important;
+    margin: auto;
 }
 
 /* DÉBUT : BANNER */
 #banner{
-    background-image: url("../attraction.jpg"); 
-    background-repeat: no-repeat;
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("../images/attraction.jpg");
     background-size: cover;
     background-position: 50% 20%;
-    height: 60vh;
+    height: 560px;
     border-radius: 0% 0% 50% 50% / 0% 0% 20% 20%;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
-    box-shadow: inset 100vw 100vh #030C4040;
 }
 
 #banner h1{
     color: #ffffff;
-    font-size: 2em;
     font-weight: bold;
-    margin-top: 15vh;
+    margin-top: 150px;
     text-align: center;
 }
 
-#banner .container{
+#banner #nav-banner{
     background-color: white;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    width: 50vw;
+    width: 960px;
+    padding: 10px;
 }
-#banner .container .row{
+
+#banner #nav-banner .row{
     display: flex;
     justify-content: center;
+    height: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
-#banner .container .col{
+
+#banner #nav-banner .items{
     text-align: center;
-    margin-right: 5%;
-    margin-left: 5%;
-    padding-top: 10px;
     border-radius: 10px;
+    height: 80px;
 }
-#banner .container .col:hover{
+
+#banner #nav-banner .items:hover{
     box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
 }
-#banner .container a{
+
+#banner #nav-banner a{
     text-decoration: none;
     color: #212529;
-    width: 33%;
-    height: 100px;
     display: flex;
 }
-#banner .container .col i{
-    font-size: 1.8em;
+
+#banner #nav-banner .items i{
+    font-size: 30px;
 }
-#banner .container .col p{
-    font-size: 0.9em;
+
+#banner #nav-banner .items p{
+    font-size: 15px;
     font-weight: bold;
+    margin-bottom: 0;
 }
-/* RESPONSIVE */
-@media screen and (max-width: 930px) {
-    #banner .container{
-        border-radius: 10px;
-        width: 80vw;
-    }
-    #banner .container .col{
-        text-align: center;
-        padding-top: 10px;
-        border-radius: 10px;
-    }
-    #banner .container a{
-        min-width: 30%;
-        width: auto;
-        padding-right: 5px;
-        padding-left: 5px;
-    }
-  }
-/* FIN RESPONSIVE */
+
 /* FIN : BANNER */
 
 /* DÉBUT : Actualités */
-#actualites{
-    padding-bottom: 4em;
-    padding-top: 4em;
-}
+
 #actualites h2{
     text-align: center;
 }
-#actualites #container{
+
+#actualites .container{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin-top: 2em;
 }
-#actualites #container .card{
-    width: 30%;
+
+#actualites .container .card{
+    width: 300px;
     border: none;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     transition: box-shadow 0.5s;
 }
-#actualites #container .card:hover{
+
+#actualites .container .card .card-footer{
+    background: #fff;
+    border: none;
+    padding-bottom: 20px;
+}
+
+#actualites .container .card:hover{
     box-shadow: #006EF540 -5px 5px, #006EF530 -10px 10px, #006EF520 -15px 15px, #006EF510 -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
 }
-#actualites #container .card p{
+
+#actualites .container .card p{
     font-size: 14px;
-    max-height: 7rem;
-    min-height: 7rem;
+    max-height: 150px;
+    min-height: 150px;
 }
-#actualites #container .card a{
+
+#actualites .container .card a{
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     display: block;
-    width: 60%;
+    width: 150px;
     border: 2px solid #006EF5;
     color: #006EF5;
     transition: color, background-color 1s;
 }
-#actualites #container .card a:hover{
+
+#actualites .container .card a:hover{
     color: #ffffff;
     background-color: #006EF5;
 }
+/* FIN : Actualités */
 
-/* RESPONSIVE */
+/* DEBUT: RESERVATION */
+
+section#reservations{
+    background: #030C40;
+}
+
+section#reservations #calendar{
+    height: 600px;
+}
+
+section#reservations #filter{
+    margin-right: 10px;
+}
+
+section#reservations #filter #budget{
+    margin-top: 20px;
+}
+
+section#reservations #calendar, section#reservations #filter #sejour,
+section#reservations #calendar, section#reservations #filter #budget
+{
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 20px;
+    min-height: 100px;
+}
+
+section#reservations #calendar #calendar-header img{
+    margin-right: 8px;
+    min-width: 32px;
+}
+
+section#reservations #calendar #calendar-header #mounth-title i{
+    font-size: 30px;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    cursor: pointer;
+}
+
+section#reservations #calendar #calendar-body #mounth-left,
+section#reservations #calendar #calendar-body #mounth-right
+{
+    width: 50%;
+    height: 60px;
+    margin-top: 20px;
+}
+
+section#reservations #calendar #calendar-body .days{
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+section#reservations #calendar #calendar-body .days:hover{
+    animation-name: bounce;
+    animation-duration: 0.2s;
+}
+
+@keyframes bounce {
+    0%   {
+        padding: 5px;
+    }
+    50%  {
+        padding-top: 10px;
+    }
+    100% {
+        padding: 5px;
+    }
+  }
+
+section#reservations #calendar #calendar-body .days p{
+    font-size: 10px;
+    padding: 0;
+    margin: 0;
+}
+
+section#reservations #calendar #calendar-body .days p.price{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/* FIN: RESERVATION */
+
+/* DEBUT: RESPONSIVE */
 @media screen and (max-width: 930px) {
+
+    /* DEBUT: RESPONSIVE Actualités */
     #actualites #container{
         flex-direction: column;
         align-items: center;
@@ -167,6 +263,29 @@ h1, h2, h3, h4, h5, h6, li{
     #actualites #container .card a{
         width: 80%;
     }
+
+    /* FIN: RESPONSIVE Actualités */
+
+    /* DEBUT: RESPONSIVE BANNER */
+
+    #banner .container{
+        border-radius: 10px;
+        width: 80vw;
+    }
+
+    #banner .container .col{
+        text-align: center;
+        padding-top: 10px;
+        border-radius: 10px;
+    }
+
+    #banner .container a{
+        min-width: 30%;
+        width: auto;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+    /* FIN: RESPONSIVE BANNER */
   }
-  /* FIN RESPONSIVE */
-/* FIN : Actualités */
+/* FIN: RESPONSIVE */
