@@ -373,7 +373,7 @@ section#herbergements button{
 @media screen and (max-width: 930px) {
 
     .container{
-        width: 100% !important;
+        width: 99% !important;
     }
 
     .sub-title{
