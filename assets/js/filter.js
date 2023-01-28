@@ -11,6 +11,13 @@ duration.addEventListener("change", function(){
   let infoChoice = document.getElementById("info_choice");
   estimation.classList.add("d-none");
   infoChoice.classList.add("d-none");
+
+  // On remet à zéro les focus sur les jours
+  for(let j =0; j < days.length; j++){
+    days[j].style.outline = "none";
+    days[j].style.outlineOffset = "0";
+  }
+
 });
 
 
@@ -137,6 +144,13 @@ rangeInput.forEach((input) => {
       estimation.classList.add("d-none");
       infoChoice.classList.add("d-none");
 
+      // On remet à zéro les focus sur les jours
+      for(let j =0; j < days.length; j++){
+        days[j].style.outline = "none";
+        days[j].style.outlineOffset = "0";
+      }
+
+
       // On fait une boucle sur tous les jours du calendrier et on modifie sa couleur selon le filtre du budget
       for(let i = 0; i < priceDay.length; i++){
 
@@ -195,6 +209,13 @@ hotelSelected.addEventListener("change", function(){
     // On remet à zero la selection si il y en avait une
     estimation.classList.add("d-none");
     infoChoice.classList.add("d-none");
+
+    // On remet à zéro les focus sur les jours
+    for(let j =0; j < days.length; j++){
+      days[j].style.outline = "none";
+      days[j].style.outlineOffset = "0";
+    }
+
 });
 
 // Au clique sur un des jours du calendrier on affiche les informations séléctionnées
@@ -212,12 +233,19 @@ for(let i = 0; i < days.length; i++){
     }else{
       nuitValue.textContent = parseInt(dureeSelected.value) - 1 + " nuit";
     }
+
+    // On remet à zéro les focus sur les jours
+    for(let j =0; j < days.length; j++){
+      days[j].style.outline = "none";
+      days[j].style.outlineOffset = "0";
+    }
+
+    // On attribue un focus sur le jour concerner
+    days[i].style.outline = "1px solid #0046e4";
+    days[i].style.outlineOffset = "2px";
     
   });
 
 }
-
-
-
 
 /* FIN: Price estimation */

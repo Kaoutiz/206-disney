@@ -172,7 +172,7 @@ section#reservations #filter label{
 }
 
 section#reservations #filter #budget{
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 section#reservations #filter #sejour,
@@ -199,7 +199,7 @@ section#reservations #calendar #calendar-header #mounth-title i{
 }
 
 section#reservations #calendar #calendar-body{
-    height: 400px;
+    height: 370px;
 }
 
 section#reservations #calendar #calendar-body #mounth-left,
@@ -279,6 +279,10 @@ section#reservations #calendar .hotel_choice{
     font-weight: bold;
 }
 
+section#reservations #calendar #next-calendar-btn i{
+    font-size: 20px;
+    font-weight: bold;
+}
 
 /* FIN: RESERVATION */
 
