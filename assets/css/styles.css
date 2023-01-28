@@ -83,6 +83,7 @@ p{
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     width: 960px;
     padding: 10px;
+    z-index: 99999;
 }
 
 #banner #nav-banner .row{
@@ -100,6 +101,10 @@ p{
 }
 
 #banner #nav-banner .items:hover{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.active-nav{
     box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
 }
 

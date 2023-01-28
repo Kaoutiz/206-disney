@@ -29,17 +29,17 @@
     <h1>Venez découvrir la nouvelle attraction Spider-man !</h1>
             <div id="nav-banner">
                 <div class="row d-flex justify-content-center align-items-center">
-                    <a href="#actualites" class="items col-4 d-flex flex-column justify-content-center">
+                    <a href="#actualites" class="items col-4 d-flex flex-column justify-content-center active-nav">
                         <i class='bx bx-news'></i>
                         <p>Nos nouveautés</p>
-                    </a>
-                    <a href="#reservations" class="items col-4 d-flex flex-column justify-content-center">
-                        <i class='bx bx-book-open'></i>
-                        <p>Réservez votre séjour</p>
                     </a>
                     <a href="#herbergements" class="items col-4 d-flex flex-column justify-content-center">
                         <i class='bx bxs-building-house'></i>
                         <p>Visualisez les hébergements</p>
+                    </a>
+                    <a href="#reservations" class="items col-4 d-flex flex-column justify-content-center">
+                        <i class='bx bx-book-open'></i>
+                        <p>Réservez votre séjour</p>
                     </a>
                 </div>
             </div>
@@ -573,6 +573,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <!-- END: Library -->
     <script src="assets/js/filter.js"></script>
+    <script src="assets/js/nav.js"></script>
     <!-- END: Scripts -->
 </body>
 
