@@ -163,6 +163,10 @@ section#reservations #filter{
     margin-right: 10px;
 }
 
+section#reservations #filter label{
+    font-weight: bold;
+}
+
 section#reservations #filter #budget{
     margin-top: 20px;
 }
