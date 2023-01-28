@@ -163,7 +163,7 @@
                 </div>
                 <div id="calendar-body" class="d-flex justify-content-between">
                     <div id="mounth-left">
-                        <div class="d-flex justify-content-start align-items-center flex-wrap">
+                        <div class="d-flex justify-content-center align-items-center">
                             <div class="days-title">
                                 <small>lu</small>   
                             </div>   
@@ -186,7 +186,7 @@
                                 <small>di</small>  
                             </div> 
                         </div>
-                        <div class="d-flex justify-content-start align-items-center flex-wrap">
+                        <div class="d-flex justify-content-center align-items-center">
                             <div class="days">
                                 
                             </div>   
@@ -214,7 +214,7 @@
                                 <p class="price"><span class="price_value">239</span>€</p> 
                             </div> 
                         </div>
-                        <div class="d-flex justify-content-start align-items-center flex-wrap">
+                        <div class="d-flex justify-content-center align-items-center">
                             <div class="days">
                                 <p>6</p>
                                 <p class="price"><span class="price_value">891</span>€</p> 
@@ -244,7 +244,7 @@
                                 <p class="price"><span class="price_value">165</span>€</p> 
                             </div> 
                         </div>
-                        <div class="d-flex justify-content-start align-items-center flex-wrap">
+                        <div class="d-flex justify-content-center align-items-center">
                             <div class="days">
                                 <p>13</p>
                                 <p class="price"><span class="price_value">980</span>€</p> 
@@ -274,7 +274,7 @@
                                 <p class="price"><span class="price_value">165</span>€</p> 
                             </div> 
                         </div>
-                        <div class="d-flex justify-content-start align-items-center flex-wrap">
+                        <div class="d-flex justify-content-center align-items-center">
                             <div class="days">
                                 <p>20</p>
                                 <p class="price"><span class="price_value">984</span>€</p> 
@@ -304,7 +304,7 @@
                                 <p class="price"><span class="price_value">125</span>€</p> 
                             </div> 
                         </div>
-                        <div class="d-flex justify-content-start align-items-center flex-wrap">
+                        <div class="d-flex justify-content-center align-items-center">
                             <div class="days">
                                 <p>27</p>
                                 <p class="price"><span class="price_value">458</span>€</p> 
@@ -331,7 +331,7 @@
                         </div>
                     </div>
                     <div id="mounth-right">
-                    <div class="d-flex justify-content-start align-items-center flex-wrap">
+                        <div class="d-flex justify-content-center align-items-center">
                         <div class="days-title">
                             <small>lu</small>   
                         </div>   
@@ -354,7 +354,7 @@
                             <small>di</small>  
                         </div> 
                     </div>
-                    <div class="d-flex justify-content-start align-items-center flex-wrap">
+                        <div class="d-flex justify-content-center align-items-center">
                             <div class="days">
                                 
                             </div>   
@@ -382,7 +382,7 @@
                                 <p class="price"><span class="price_value">241</span>€</p> 
                             </div> 
                         </div>
-                        <div class="d-flex justify-content-start align-items-center flex-wrap">
+                        <div class="d-flex justify-content-center align-items-center">
                             <div class="days">
                                 <p>6</p>
                                 <p class="price"><span class="price_value">658</span>€</p> 
@@ -412,7 +412,7 @@
                                 <p class="price"><span class="price_value">265</span>€</p> 
                             </div> 
                         </div>
-                        <div class="d-flex justify-content-start align-items-center flex-wrap">
+                        <div class="d-flex justify-content-center align-items-center">
                             <div class="days">
                                 <p>13</p>
                                 <p class="price"><span class="price_value">147</span>€</p> 
@@ -442,7 +442,7 @@
                                 <p class="price"><span class="price_value">647</span>€</p> 
                             </div> 
                         </div>
-                        <div class="d-flex justify-content-start align-items-center flex-wrap">
+                        <div class="d-flex justify-content-center align-items-center">
                             <div class="days">
                                 <p>20</p>
                                 <p class="price"><span class="price_value">269</span>€</p> 
@@ -472,7 +472,7 @@
                                 <p class="price"><span class="price_value">369</span>€</p> 
                             </div> 
                         </div>
-                        <div class="d-flex justify-content-start align-items-center flex-wrap">
+                        <div class="d-flex justify-content-center align-items-center">
                             <div class="days">
                                 <p>27</p>
                                 <p class="price"><span class="price_value">206</span>€</p> 
