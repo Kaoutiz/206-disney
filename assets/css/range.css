@@ -37,6 +37,7 @@
   background-color: #fff;
   pointer-events: auto;
   -webkit-appearance: none;
+  cursor: grab;
 }
 
 .range-input input::-moz-range-thumb {
