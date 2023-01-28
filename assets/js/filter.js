@@ -41,7 +41,7 @@ for(let i = 0; i < priceDay.length; i++){
       priceDay[i].parentNode.parentNode.children[0].style.color = "white"
       break;
     case (parseInt(priceDay[i].textContent) > 800 && parseInt(priceDay[i].textContent) < 1000):
-      priceDay[i].parentNode.parentNode.style.background = "rgb(140, 71, 162)"
+      priceDay[i].parentNode.parentNode.style.background = "rgb(247, 37, 133)"
       priceDay[i].parentNode.style.color = "white"
       priceDay[i].parentNode.parentNode.children[0].style.color = "white"
       break;

@@ -126,7 +126,7 @@
                     <label class="mb-2">Budget</label>
                     <div class="range-label mb-3 d-flex justify-content-between">
                         <label>0€</label>
-                        <label>+1000 €</label>
+                        <label>+900 €</label>
                     </div>
                     <div class="range-slider">
                         <span class="range-selected"></span>
