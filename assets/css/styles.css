@@ -156,7 +156,11 @@ section#reservations{
 }
 
 section#reservations #calendar{
-    height: 600px;
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 20px;
+    min-height: 500px;
+    position: relative;
 }
 
 section#reservations #filter{
@@ -171,8 +175,8 @@ section#reservations #filter #budget{
     margin-top: 20px;
 }
 
-section#reservations #calendar, section#reservations #filter #sejour,
-section#reservations #calendar, section#reservations #filter #budget
+section#reservations #filter #sejour,
+section#reservations #filter #budget
 {
     background: #ffffff;
     border-radius: 16px;
@@ -192,6 +196,10 @@ section#reservations #calendar #calendar-header #mounth-title i{
     text-align: center;
     line-height: 35px;
     cursor: pointer;
+}
+
+section#reservations #calendar #calendar-body{
+    height: 400px;
 }
 
 section#reservations #calendar #calendar-body #mounth-left,
@@ -254,6 +262,18 @@ section#reservations #calendar #calendar-body .days p.price{
     font-size: 12px;
     font-weight: bold;
 }
+
+section#reservations #calendar #estimation{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 100%;
+}
+section#reservations #calendar #estimation #price_estimation{
+    font-size: 18px;
+    font-weight: bold;
+}
+
 
 /* FIN: RESERVATION */
 
