@@ -7,14 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accueil</title>
 
-    <!-- BEGIN: Styles -->
-    <link rel="stylesheet" href="assets/css/styles.css">
-    <link rel="stylesheet" href="assets/css/range.css">
-
     <!-- BEGIN: Library -->
     <link rel="stylesheet" href="assets/css/boxicons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <!-- END: Library -->
+
+    <!-- BEGIN: Styles -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/range.css">
 
     <!-- END: Styles -->
 </head>
@@ -88,8 +88,25 @@
 
     <!-- BEGIN: Herbergements -->
     <section id="herbergements">
-        <div id="container">
-            <!-- Content here -->
+        <div class="container">
+            <h2 class="blue-back text-center">Trouvez l'hébergement idéal !</h2>
+            <p class="blue-back text-center sub-title">Repérez la chambre, le bungalow ou la suite Disney qu'il vous faut : notre gamme répond à tous les goûts et tous les budgets !</p>
+            <div class="d-flex justify-content-between mb-5">
+                <img src="assets/images/chambre-bungalows.jpg" alt="Chambres et bungalows">
+                <div class="infos-hebergement-right">
+                    <h3>Chambres et bungalows</h3>
+                    <p>En chambre simple ou double, avec ou sans vue sur le lac Disney, ou même dans un confortable bungalow forestier, quel que soit votre choix, l'expérience Disneyland Paris est au rendez-vous !</p>
+                </div>
+            </div>
+            <div class="d-flex justify-content-between mb-5">
+                <div class="infos-hebergement-left">
+                    <h3>Chambres Club et Suites</h3>
+                    <p>Rejoignez le club et profitez de chambres premium et de services exclusifs. Choisissez une Suite ou une Chambre Club et bénéficiez d'une réception privée, d'un voiturier, d'un lounge dédié et bien plus !</p>
+                    <button class="btn btn-outline-light rounded-pill">En savoir plus</button>
+                </div>
+                <img src="assets/images/chambre-suite.jpg" alt="Chambres et suites">
+            </div>
+            
         </div>
     </section>
     <!-- END: Herbergements -->
@@ -107,7 +124,7 @@
         <h2 class="blue-back text-center">Réservez votre séjour</h2>
         <div class="container">
             <div class="d-flex flex-column">
-            <p class="blue-back text-center">Comparez les différentes périodes* grâce à notre calendrier de prix et réservez en toute sérénité !<br> Modifiez ou annulez votre séjour sans frais jusqu’à 7 jours avant votre arrivée. </p>
+            <p class="blue-back text-center sub-title">Comparez les différentes périodes* grâce à notre calendrier de prix et réservez en toute sérénité ! Modifiez ou annulez votre séjour sans frais jusqu’à 7 jours avant votre arrivée. </p>
             <div class="icon-wrapper d-flex justify-content-center mb-4 mt-2">
                 <div class="icon-calendar">
                     <i class='bx bxs-calendar'></i>

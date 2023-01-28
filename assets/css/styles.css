@@ -27,6 +27,15 @@ h2{
     font-size: 40px;
 }
 
+h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+p{
+    font-size: 13px;
+}
+
 .blue-back{
     color: #ffffff;
 }
@@ -39,6 +48,12 @@ h2{
     padding: 10px;
     width: 960px !important;
     margin: auto;
+}
+
+.sub-title{
+    width: 800px;
+    margin: auto;
+    margin-bottom: 20px;
 }
 
 /* DÉBUT : BANNER */
@@ -321,6 +336,32 @@ section#reservations #calendar #next-calendar-btn i{
 }
 
 /* FIN: RESERVATION */
+
+/* DEBUT: HEBERGEMENT */
+
+section#herbergements{
+    background: #030C40;
+    color: #ffffff;
+}
+
+section#herbergements img{
+    width: 50%;
+    border-radius: 10px;
+}
+
+section#herbergements .infos-hebergement-right{
+    margin-left: 20px;
+}
+
+section#herbergements .infos-hebergement-left{
+    margin-right: 20px;
+}
+
+section#herbergements button{
+    width: 200px;
+}
+
+/* FIN: HEBERGEMENT */
 
 /* DEBUT: RESPONSIVE */
 @media screen and (max-width: 930px) {
