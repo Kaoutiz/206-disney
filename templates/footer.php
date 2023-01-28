@@ -110,7 +110,7 @@
             </div>
     </div>
 
-    <p class="m-3 text-center text-white text-uppercase">Disneyland paris | ©UEL206 - Semaine 5</p>
+    <p class="pt-4 text-center text-white text-uppercase">Disneyland paris | ©UEL206 - Semaine 5</p>
 
 </footer>
 
