@@ -13,12 +13,6 @@ section{
     padding-top: 20px;
 }
 
-@media screen and (max-width: 930px) {
-    section{
-        width: 100%;
-    }
-  }
-
 h1, h2, h3, h4, h5, h6, li{
     font-family: 'Matterhorn', sans-serif;
 }
@@ -116,6 +110,12 @@ h1{
     transition: box-shadow 0.5s;
 }
 
+#actualites .container .card .card-footer{
+    background: #fff;
+    border: none;
+    padding-bottom: 20px;
+}
+
 #actualites .container .card:hover{
     box-shadow: #006EF540 -5px 5px, #006EF530 -10px 10px, #006EF520 -15px 15px, #006EF510 -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
 }
@@ -149,16 +149,88 @@ section#reservations{
     background: #030C40;
 }
 
-section#reservations #calendar, section#reservations #filter{
-    min-height: 450px;
-    border-radius: 16px;
+section#reservations #calendar{
+    height: 600px;
+}
+
+section#reservations #filter{
+    margin-right: 10px;
+}
+
+section#reservations #filter #budget{
+    margin-top: 20px;
+}
+
+section#reservations #calendar, section#reservations #filter #sejour,
+section#reservations #calendar, section#reservations #filter #budget
+{
     background: #ffffff;
+    border-radius: 16px;
     padding: 20px;
+    min-height: 100px;
 }
 
 section#reservations #calendar #calendar-header img{
     margin-right: 8px;
     min-width: 32px;
+}
+
+section#reservations #calendar #calendar-header #mounth-title i{
+    font-size: 30px;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    cursor: pointer;
+}
+
+section#reservations #calendar #calendar-body #mounth-left,
+section#reservations #calendar #calendar-body #mounth-right
+{
+    width: 50%;
+    height: 60px;
+    margin-top: 20px;
+}
+
+section#reservations #calendar #calendar-body .days{
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+section#reservations #calendar #calendar-body .days:hover{
+    animation-name: bounce;
+    animation-duration: 0.2s;
+}
+
+@keyframes bounce {
+    0%   {
+        padding: 5px;
+    }
+    50%  {
+        padding-top: 10px;
+    }
+    100% {
+        padding: 5px;
+    }
+  }
+
+section#reservations #calendar #calendar-body .days p{
+    font-size: 10px;
+    padding: 0;
+    margin: 0;
+}
+
+section#reservations #calendar #calendar-body .days p.price{
+    font-size: 12px;
+    font-weight: bold;
 }
 
 /* FIN: RESERVATION */
