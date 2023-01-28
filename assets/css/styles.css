@@ -215,6 +215,18 @@ section#reservations #calendar #calendar-body .days{
     align-items: flex-end;
 }
 
+section#reservations #calendar #calendar-body .days-title{
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgba(32, 34, 73, 0.5);
+}
+
 section#reservations #calendar #calendar-body .days:hover{
     animation-name: bounce;
     animation-duration: 0.2s;

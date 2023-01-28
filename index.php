@@ -163,6 +163,29 @@
                 </div>
                 <div id="calendar-body" class="d-flex justify-content-between">
                     <div id="mounth-left">
+                    <div class="d-flex justify-content-start align-items-center flex-wrap">
+                            <div class="days-title">
+                                <small>lu</small>   
+                            </div>   
+                            <div class="days-title">
+                                <small>ma</small>  
+                            </div> 
+                            <div class="days-title">
+                                <small>me</small>   
+                            </div> 
+                            <div class="days-title">
+                                <small>je</small>  
+                            </div> 
+                            <div class="days-title">
+                                <small>ve</small>  
+                            </div> 
+                            <div class="days-title">
+                                <small>sa</small>  
+                            </div> 
+                            <div class="days-title">
+                                <small>di</small>  
+                            </div> 
+                        </div>
                         <div class="d-flex justify-content-start align-items-center flex-wrap">
                             <div class="days">
                                 
@@ -308,6 +331,29 @@
                         </div>
                     </div>
                     <div id="mounth-right">
+                    <div class="d-flex justify-content-start align-items-center flex-wrap">
+                        <div class="days-title">
+                            <small>lu</small>   
+                        </div>   
+                        <div class="days-title">
+                            <small>ma</small>  
+                        </div> 
+                        <div class="days-title">
+                            <small>me</small>   
+                        </div> 
+                        <div class="days-title">
+                            <small>je</small>  
+                        </div> 
+                        <div class="days-title">
+                            <small>ve</small>  
+                        </div> 
+                        <div class="days-title">
+                            <small>sa</small>  
+                        </div> 
+                        <div class="days-title">
+                            <small>di</small>  
+                        </div> 
+                    </div>
                     <div class="d-flex justify-content-start align-items-center flex-wrap">
                             <div class="days">
                                 
