@@ -104,47 +104,61 @@
 
     <!-- BEGIN: Réservations -->
     <section id="reservations">
-        <div class="container d-flex justify-content-around">
-            <div id="filter" class="col-12 col-sm-12 col-md-3 col-xl-3">
-                <div id="sejour" class="d-flex flex-column">
-                    <label for="duree" class="mb-2">Durée du séjour</label>
-                    <select name="duree" id="duree" class="form-select mb-3">
-                        <option value="2">2 jours / 1 nuit</option>
-                        <option value="3">3 jours / 2 nuits</option>
-                        <option value="4">4 jours / 3 nuits</option>
-                        <option value="5">5 jours / 4 nuits</option>
-                    </select>
-                    <label for="hotel" class="mb-2">Hôtels</label>
-                    <select name="hotel" id="hotel" class="form-select mb-3">
-                        <option value="Disney Hotel Cheyenne ★★★" select>Disney Hotel Cheyenne ★★★</option>
-                        <option value="Disney Hotel Santa Fe ★★">Disney Hotel Santa Fe ★★</option>
-                        <option value="Disney Hotel Newport Bay Club ★★★★">Disney Hotel Newport Bay Club ★★★★</option>
-                    </select>
+        <h2 class="blue-back text-center">Réservez votre séjour</h2>
+        <div class="container">
+            <div class="d-flex flex-column">
+            <p class="blue-back text-center">Comparez les différentes périodes* grâce à notre calendrier de prix et réservez en toute sérénité !<br> Modifiez ou annulez votre séjour sans frais jusqu’à 7 jours avant votre arrivée. </p>
+            <div class="icon-wrapper d-flex justify-content-center mb-4 mt-2">
+                <div class="icon-calendar">
+                    <i class='bx bxs-calendar'></i>
                 </div>
-                <div id="budget">
-                <div class="range">
-                    <label class="mb-2">Budget</label>
-                    <div class="range-label mb-3 d-flex justify-content-between">
-                        <label>0€</label>
-                        <label>+900 €</label>
-                    </div>
-                    <div class="range-slider">
-                        <span class="range-selected"></span>
-                    </div>
-                    <div class="range-input">
-                        <input type="range" class="min" min="0" max="1000" value="0" step="200">
-                        <input type="range" class="max" min="0" max="1000" value="1000" step="200" >
-                    </div>
-                    <div class="range-price d-none">      
-                        <label for="min">Min</label>
-                        <input type="number" name="min" value="0" hidden>      
-                        <label for="max">Max</label>
-                        <input type="number" name="max" value="1000" hidden>      
-                    </div>
-                    </div> 
+                <p>Le prix du séjour est déterminé par la date d'arrivée.</p>
+                <div class="icon-calendar">
+                    <i class='bx bx-sync'></i>
                 </div>
-            </div>
-            <div id="calendar" class="col-12 col-sm-12 col-md-9 col-xl-9">
+                <p>Prix estimés sur la base des prix constatés ce matin à 8h00 et mis à jour quotidiennement.</p>
+            </div>  
+            <div class="calendar-wrapper d-flex justify-content-around">
+                <div id="filter" class="col-12 col-sm-12 col-md-3 col-xl-3">
+                    <div id="sejour" class="d-flex flex-column">
+                        <label for="duree" class="mb-2">Durée du séjour</label>
+                        <select name="duree" id="duree" class="form-select mb-3">
+                            <option value="2">2 jours / 1 nuit</option>
+                            <option value="3">3 jours / 2 nuits</option>
+                            <option value="4">4 jours / 3 nuits</option>
+                            <option value="5">5 jours / 4 nuits</option>
+                        </select>
+                        <label for="hotel" class="mb-2">Hôtels</label>
+                        <select name="hotel" id="hotel" class="form-select mb-3">
+                            <option value="Disney Hotel Cheyenne ★★★" select>Disney Hotel Cheyenne ★★★</option>
+                            <option value="Disney Hotel Santa Fe ★★">Disney Hotel Santa Fe ★★</option>
+                            <option value="Disney Hotel Newport Bay Club ★★★★">Disney Hotel Newport Bay Club ★★★★</option>
+                        </select>
+                    </div>
+                    <div id="budget">
+                    <div class="range">
+                        <label class="mb-2">Budget</label>
+                        <div class="range-label mb-3 d-flex justify-content-between">
+                            <label>0€</label>
+                            <label>+900 €</label>
+                        </div>
+                        <div class="range-slider">
+                            <span class="range-selected"></span>
+                        </div>
+                        <div class="range-input">
+                            <input type="range" class="min" min="0" max="1000" value="0" step="200">
+                            <input type="range" class="max" min="0" max="1000" value="1000" step="200" >
+                        </div>
+                        <div class="range-price d-none">      
+                            <label for="min">Min</label>
+                            <input type="number" name="min" value="0" hidden>      
+                            <label for="max">Max</label>
+                            <input type="number" name="max" value="1000" hidden>      
+                        </div>
+                        </div> 
+                    </div>
+                </div>
+                <div id="calendar" class="col-12 col-sm-12 col-md-9 col-xl-9">
                 <div id="calendar-header">
                     <div class="d-flex align-items-start">
                         <img alt="ticket" src="assets/images/ticket_icon.svg">
@@ -511,7 +525,11 @@
                     <p class="duree_choice"><span id="jour_value"></span> / <span id="nuit_value"></span></p> 
                 </div>  
             </div>
+            </div>
+            <p class="blue-back asterix mt-2">* Les prix figurant dans le calendrier ci-dessus sont des estimations établies sur la base des prix enregistrés chaque matin et mis à jour une fois par jour.<br> Les prix peuvent changer en fonction du moment de la réservation. Cet outil est proposé à titre informatif et ne présente pas de caractère contractuel.<br> Seuls les prix affichés sur la plateforme de réservation font foi. Les prix indiqués sont arrondis à l’euro supérieur.</p>
         </div>
+      
+        
     </section>
     <!-- END: Réservations -->
 

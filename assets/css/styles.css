@@ -23,8 +23,16 @@ h1, h2, h3, h4, h5, h6, li{
     font-family: 'Matterhorn', sans-serif;
 }
 
-h1{
+h2{
     font-size: 40px;
+}
+
+.blue-back{
+    color: #ffffff;
+}
+
+.asterix{
+    font-size: 12px;
 }
 
 .container{
@@ -153,6 +161,34 @@ h1{
 
 section#reservations{
     background: #030C40;
+}
+
+section#reservations .icon-calendar{
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    background: #ffffff;
+    margin-left: 20px;
+    text-align: center;
+}
+
+section#reservations .icon-calendar i{
+    background: rgb(175,81,163);
+    background: linear-gradient(90deg, rgba(175,81,163,1) 0%, rgba(128,67,161,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+    padding: 5px;
+    line-height: 30px;
+}
+
+section#reservations .icon-wrapper p{
+    width: 250px;
+    height: 40px;
+    font-size: 13px;
+    margin-left: 10px;
+    line-height: 14px;
+    color: #ffffff;
 }
 
 section#reservations #calendar{
