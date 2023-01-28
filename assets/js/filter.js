@@ -8,9 +8,9 @@ duration.addEventListener("change", function(){
 
   // On remet à zero la selection si il y en avait une
   let estimation = document.getElementById("estimation");
-  let hotelValue = document.getElementById("hotel_value");
+  let infoChoice = document.getElementById("info_choice");
   estimation.classList.add("d-none");
-  hotelValue.classList.add("d-none");
+  infoChoice.classList.add("d-none");
 });
 
 
@@ -133,9 +133,9 @@ rangeInput.forEach((input) => {
 
       // On remet à zero la selection si il y en avait une
       let estimation = document.getElementById("estimation");
-      let hotelValue = document.getElementById("hotel_value");
+      let infoChoice = document.getElementById("info_choice");
       estimation.classList.add("d-none");
-      hotelValue.classList.add("d-none");
+      infoChoice.classList.add("d-none");
 
       // On fait une boucle sur tous les jours du calendrier et on modifie sa couleur selon le filtre du budget
       for(let i = 0; i < priceDay.length; i++){
@@ -181,8 +181,12 @@ rangeInput.forEach((input) => {
 
 let estimation = document.getElementById("estimation");
 let priceValue = document.getElementById("price_value");
+let infoChoice = document.getElementById("info_choice");
 let hotelSelected = document.getElementById("hotel");
 let hotelValue = document.getElementById("hotel_value");
+let dureeSelected = document.getElementById("duree");
+let jourValue = document.getElementById("jour_value");
+let nuitValue = document.getElementById("nuit_value");
 let days = document.getElementsByClassName("days");
 
 hotelSelected.addEventListener("change", function(){
@@ -190,16 +194,25 @@ hotelSelected.addEventListener("change", function(){
 
     // On remet à zero la selection si il y en avait une
     estimation.classList.add("d-none");
-    hotelValue.classList.add("d-none");
+    infoChoice.classList.add("d-none");
 });
 
+// Au clique sur un des jours du calendrier on affiche les informations séléctionnées
 for(let i = 0; i < days.length; i++){
 
   days[i].addEventListener("click", function(){
     estimation.classList.remove("d-none");
     priceValue.textContent = days[i].children[1].children[0].textContent;
-    hotel_value.classList.remove("d-none");
+    infoChoice.classList.remove("d-none");
     hotelValue.textContent = hotelSelected.value;
+    jourValue.textContent = dureeSelected.value + " jours";
+
+    if(parseInt(dureeSelected.value) > 2){
+      nuitValue.textContent = parseInt(dureeSelected.value) - 1 + " nuits";
+    }else{
+      nuitValue.textContent = parseInt(dureeSelected.value) - 1 + " nuit";
+    }
+    
   });
 
 }
