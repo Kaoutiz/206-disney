@@ -163,7 +163,7 @@
                 </div>
                 <div id="calendar-body" class="d-flex justify-content-between">
                     <div id="mounth-left">
-                    <div class="d-flex justify-content-start align-items-center flex-wrap">
+                        <div class="d-flex justify-content-start align-items-center flex-wrap">
                             <div class="days-title">
                                 <small>lu</small>   
                             </div>   
@@ -501,6 +501,10 @@
                             </div> 
                         </div>
                     </div>
+                </div>
+                <div id="estimation" class="d-none">
+                    <h2 id="price_estimation">Estimation du prix du séjour: <span id="price_value"></span>€</h2>  
+                    <button id="next-calendar-btn" class="btn btn-primary rounded-pill d-flex align-items-center"><span>Continuer</span> <i class='bx bx-chevron-right'></i></button>
                 </div>
             </div>
         </div>

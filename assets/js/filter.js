@@ -164,3 +164,23 @@ rangeInput.forEach((input) => {
 });
 
 /* FIN: Budget */
+
+/* DEBUT: Price estimation */
+
+let estimation = document.getElementById("estimation");
+let priceValue = document.getElementById("price_value");
+let days = document.getElementsByClassName("days");
+
+for(let i = 0; i < days.length; i++){
+
+  days[i].addEventListener("click", function(){
+    estimation.classList.remove("d-none");
+    priceValue.textContent = days[i].children[1].children[0].textContent;
+  });
+
+}
+
+
+
+
+/* FIN: Price estimation */
