@@ -372,48 +372,66 @@ section#herbergements button{
 /* DEBUT: RESPONSIVE */
 @media screen and (max-width: 930px) {
 
-    /* DEBUT: RESPONSIVE Actualités */
-    #actualites #container{
+    .container{
+        width: 100% !important;
+    }
+
+    .sub-title{
+        width: 100%;
+    }
+
+    #banner{
+        border-radius: 0% 0% 50% 50% / 0% 0% 13% 13%;
+    }
+
+    /* DEBUT: NAV */
+
+    #nav-banner{
+        width: 98% !important;
+    }
+
+    /* FIN: NAV */
+
+    /* DEBUT: ACTUALITE */
+
+    #actualites .container{
         flex-direction: column;
+        justify-content: center;
         align-items: center;
     }
-    #actualites #container .card{
-        width: auto;
-        margin-right: 20vw;
-        margin-left: 20vw;
-        margin-bottom: 2em;
-    }
-    #actualites #container .card p{
-        max-height: 7rem;
-        min-height: 7rem;
-        overflow: hidden;
-    }
-    #actualites #container .card a{
-        width: 80%;
+
+    #actualites .card{
+        margin-bottom: 20px;
     }
 
-    /* FIN: RESPONSIVE Actualités */
+    /* FIN: ACTUALITE */
 
-    /* DEBUT: RESPONSIVE BANNER */
+    /* DEBUT: RESERVATION */
 
-    #banner .container{
-        border-radius: 10px;
-        width: 80vw;
+    #calendar{
+        margin-top: 10px;
     }
 
-    #banner .container .col{
-        text-align: center;
-        padding-top: 10px;
-        border-radius: 10px;
+    .calendar-wrapper{
+        flex-direction: column;
     }
 
-    #banner .container a{
-        min-width: 30%;
-        width: auto;
-        padding-right: 5px;
-        padding-left: 5px;
+    #calendar-body{
+        display: block;
     }
 
-    /* FIN: RESPONSIVE BANNER */
+    #mounth-right{
+        display: none;
+    }
+
+    #mounth-left{
+        width: 100% !important;
+    }
+
+    .mounth-next{
+        display: none;
+    }
+
+    /* FIN: RESERVATION */
   }
 /* FIN: RESPONSIVE */
