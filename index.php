@@ -594,7 +594,7 @@
 
     <!-- BEGIN: Accès -->
     <section id="acces-hygiene">
-        <h2 class="text-center">Des *ures d'hygiène et de sécurité</h2>
+        <h2 class="text-center">Des mesures d'hygiène et de sécurité</h2>
         <div class="container">
             <div class="hygiene-acces mt-3 mb-4">
                 <div class="card mb-3">
