@@ -387,7 +387,8 @@ section#herbergements button{
     top: -16px;
     left: -8px;
 }
-#offres .container{
+
+#offres .container .offres-wrapper{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -419,35 +420,10 @@ section#herbergements button{
     font-size: 18px;
 }
 
-#offres .card-footer a{
-    text-align: center;
-    margin-top: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    width: 200px;
-    border: 2px solid #006EF5;
-    border-radius: 20px;
-    color: #006EF5;
-    transition: color, background-color 1s;
-}
-
-#offres .card-footer a:hover{
-    color: #ffffff;
-    background-color: #006EF5;
-}
 /* FIN : OFFRES */
 
 
 /* DEBUT: ACCES */
-section#acces-hygiene, section#acces-map{
-    padding-bottom: 0;
-}
-
-section#acces-hygiene .container, section#acces-hygiene .container{
-    padding-bottom: 0;
-}
-
 
 #acces-hygiene .hygiene-acces .card{
     border: solid #030C40 2px;
@@ -456,7 +432,6 @@ section#acces-hygiene .container, section#acces-hygiene .container{
 
 #acces-hygiene .hygiene-acces .card img {
     width: 160px;
-    height: 160px;
     margin-left: 40px;
 }
 
@@ -539,9 +514,18 @@ section#acces-hygiene .container, section#acces-hygiene .container{
 
     #actualites .card{
         margin-bottom: 20px;
+        width: 100% !important;
     }
 
     /* FIN: ACTUALITE */
+
+    /* DEBUT: OFFRES */
+
+    #offres .container .card{
+        width: 100%;
+    }
+
+    /* FIN: OFFRES */
 
     /* DEBUT: RESERVATION */
 
@@ -570,12 +554,21 @@ section#acces-hygiene .container, section#acces-hygiene .container{
     }
 
     /* FIN: RESERVATION */
+
+    #acces-hygiene img{
+        margin-left: 0 !important;
+    }
+
+    #acces-hygiene .col-md-4{
+        display: flex;
+        justify-content: center;
+    }
   }
 /* FIN: RESPONSIVE */
 
 /* DEBUT: Scroll annimation */
 
-#herbergements .container, #actualites .container, #offre .container, #reservations .container{
+#herbergements .container, #actualites .container, #acces-hygiene .container, #reservations .container, #offres .container, #acces-map .container, #footer-section .container{
     animation: none;
     opacity: 0;
 }
