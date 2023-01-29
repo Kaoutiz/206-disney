@@ -1,0 +1,60 @@
+/* DEBUT : menu-footer */
+footer {
+  background-color: #030C40;
+  padding: 30px 0 10px 0;
+}
+
+.footer-menu {
+  color: #030C40;
+  background-color: #ffffff;
+  border-radius: 16px !important;
+}
+
+.nav-pills {
+  --bs-nav-pills-link-active-bg: #030C40;
+  --bs-nav-link-color: #030C40;
+}
+
+.tab-content {
+  margin: 20px;
+}
+
+.rounded-nav {
+  border-radius: 25px !important;
+}
+
+.rounded-nav .nav-link {
+  border-radius: 25px !important;
+}
+/* FIN : menu-footer */
+
+/* DEBUT : form-footer */
+.form-control {
+  margin: 10px 0 10px 0;
+}
+
+.infos-form {
+  color: #030C40;
+  border-right: solid 1px #030C40;
+}
+
+.btn-primary {
+  background-color: #030C40;
+  border: none;
+  float: right;
+}
+/* FIN : form-footer */
+
+/* DEBUT : socials-footer */
+.socials-footer a {
+  border-radius: 22px;
+  font-size: 20px;
+}
+
+.phone-footer {
+  border: solid 1px #030C40;
+  border-radius: 22px;
+  float: right;
+}
+
+/* FIN : socials-footer */
