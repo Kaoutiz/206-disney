@@ -25,13 +25,15 @@
                     <div id="contact-footer" class="tab-pane fade">
                         <form>
                             <div class="row g-5">
-                                 <div class="col-3 pt-3 infos-form">
-                                 <h3 class="text-uppercase font-weight-bold">Adresse du parc</h3>
-                                    <p class="mb-0">Disneyland Paris</p>
-                                    <p class="mb-0">Boulevard du Parc</p>
-                                    <p class="mb-0">Avenue Paul Seramy</p>
-                                    <p class="mb-0">77700 Serris | Magny le hongre</p>
-                                    <p class="mb-0">France</p>
+                                 <div class="col-4 pt-3 infos-form">
+
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4413.814317979382!2d2.782539532067224!3d48.86832194635801!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e61d19ca7ae2bd%3A0x57faf8cb6310e660!2sDisneyland%20Paris!5e0!3m2!1sfr!2sfr!4v1674936267635!5m2!1sfr!2sfr" 
+                                            width="240" height="200" style="border:0;" 
+                                            allowfullscreen="" 
+                                            loading="lazy" 
+                                            referrerpolicy="no-referrer-when-downgrade">
+                                        </iframe>
+
                                 </div>
                                 <div class="col">
                                     <input type="text" class="form-control" placeholder="Nom" aria-label="Nom" required>
@@ -49,11 +51,11 @@
                     </div>
                     <div id="site-footer" class="tab-pane fade show active">
                         <div class="row row-cols-4 text-center">
-                            <div class="col"><a href="#" class="nav-link m-2 font-weight-bold" data-bs-toggle="tab">Accueil</a></div>
-                            <div class="col"><a href="#" class="nav-link m-2 font-weight-bold" data-bs-toggle="tab">Actualités</a></div>
-                            <div class="col"><a href="#" class="nav-link m-2 font-weight-bold" data-bs-toggle="tab">Nos Hôtels</a></div>
-                            <div class="col"><a href="#" class="nav-link m-2 font-weight-bold" data-bs-toggle="tab">Offres</a></div>
-                            <div class="col"><a href="#" class="nav-link m-2 font-weight-bold" data-bs-toggle="tab">Réservation</a></div>
+                            <div class="col"><a href="#accueil" class="nav-link m-2 font-weight-bold" data-bs-toggle="tab">Accueil</a></div>
+                            <div class="col"><a href="#actualites" class="nav-link m-2 font-weight-bold" data-bs-toggle="tab">Actualités</a></div>
+                            <div class="col"><a href="#hebergements" class="nav-link m-2 font-weight-bold" data-bs-toggle="tab">Nos Hôtels</a></div>
+                            <div class="col"><a href="#offres" class="nav-link m-2 font-weight-bold" data-bs-toggle="tab">Offres</a></div>
+                            <div class="col"><a href="#reservations" class="nav-link m-2 font-weight-bold" data-bs-toggle="tab">Réservation</a></div>
                             <div class="col"><a href="#" class="nav-link m-2 font-weight-bold" data-bs-toggle="tab">Boutique</a></div>
                             <div class="col"><a href="#" class="nav-link m-2 font-weight-bold" data-bs-toggle="tab">Nos autres Parcs</a></div>
                         </div>

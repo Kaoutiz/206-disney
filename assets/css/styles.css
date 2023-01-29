@@ -418,3 +418,62 @@ section#reservations #calendar .hotel_choice{
 
 
 /* FIN: RESERVATION */
+
+/* DEBUT: ACCES */
+section#acces {
+    padding-bottom: 0;
+}
+
+#acces .hygiene-acces .card{
+    border: solid #030C40 2px;
+    margin: 0 80px 0 80px;
+}
+
+#acces .hygiene-acces .card img {
+    width: 160px;
+    height: 160px;
+    margin-left: 40px;
+}
+
+#acces .hygiene-acces .card h3{
+    font-size: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+#acces .hygiene-acces .card p{
+    line-height: 20px;
+    text-align: justify;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+#acces .map-acces{
+    background: #030C40;
+    color: #ffffff;
+    padding-top: 20px;
+}
+
+#acces img{
+    width: 70%;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+#acces .infos-map a{
+    width: 200px;
+    margin: 2px 0 10px 0;
+    color: #ffffff;
+    border-radius: 20px;
+    border: solid 1px #ffffff;
+}
+
+#acces .infos-map a:hover{
+    color: #030C40;
+    background-color: #ffffff;
+}
+
+
+/* FIN: ACCES */
