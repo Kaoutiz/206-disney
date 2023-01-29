@@ -39,7 +39,7 @@
                             </div>
                             <div class="col-4">
                                 <input type="text" class="form-control" placeholder="Sujet" aria-label="Sujet" required >
-                                <textarea name="Message" type="text" class="form-control" placeholder="Votre message..." aria-label="Votre message..." required></textarea>
+                                <textarea name="Message" class="form-control" placeholder="Votre message..." aria-label="Votre message..." required></textarea>
                                 <button type="submit" class="btn btn-primary">Envoyer</button>
                             </div>
                         </div>
@@ -101,7 +101,7 @@
                 </a>
             </div>
             <div class="col pb-3">
-                <a class="btn btn-floating m-1 phone-footer" href="tel:06 06 06 06 066" role="button">
+                <a class="btn btn-floating m-1 phone-footer" href="tel:0612345678" role="button">
                     <i class='bx bxs-phone' ></i>
                     <span>06 06 06 06 06</span>
                 </a>
