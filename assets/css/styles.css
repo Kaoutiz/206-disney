@@ -387,6 +387,7 @@ section#herbergements button{
     top: -16px;
     left: -8px;
 }
+
 #offres .container .offres-wrapper{
     display: flex;
     flex-direction: row;
