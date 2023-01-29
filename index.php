@@ -16,7 +16,8 @@
     <!-- BEGIN: Styles -->
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/range.css">
-
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/footer-styles.css">
     <!-- END: Styles -->
 </head>
 
