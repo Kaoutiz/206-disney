@@ -440,29 +440,34 @@ section#herbergements button{
 
 
 /* DEBUT: ACCES */
-section#acces {
+section#acces-hygiene, section#acces-map{
     padding-bottom: 0;
 }
 
-#acces .hygiene-acces .card{
+section#acces-hygiene .container, section#acces-hygiene .container{
+    padding-bottom: 0;
+}
+
+
+#acces-hygiene .hygiene-acces .card{
     border: solid #030C40 2px;
     margin: 0 80px 0 80px;
 }
 
-#acces .hygiene-acces .card img {
+#acces-hygiene .hygiene-acces .card img {
     width: 160px;
     height: 160px;
     margin-left: 40px;
 }
 
-#acces .hygiene-acces .card h3{
+#acces-hygiene .hygiene-acces .card h3{
     font-size: 20px;
     padding-right: 20px;
     padding-left: 20px;
     padding-top: 20px;
 }
 
-#acces .hygiene-acces .card p{
+#acces-hygiene .hygiene-acces .card p{
     line-height: 20px;
     text-align: justify;
     padding-right: 20px;
@@ -470,19 +475,20 @@ section#acces {
     padding-bottom: 20px;
 }
 
-#acces .map-acces{
+#acces-map{
     background: #030C40;
     color: #ffffff;
     padding-top: 20px;
+    width: 100%;
 }
 
-#acces img{
+#acces-map img{
     width: 70%;
     margin-top: 20px;
     border-radius: 10px;
 }
 
-#acces .infos-map a{
+#acces-map .infos-map a{
     width: 200px;
     margin: 2px 0 10px 0;
     color: #ffffff;
@@ -490,7 +496,7 @@ section#acces {
     border: solid 1px #ffffff;
 }
 
-#acces .infos-map a:hover{
+#acces-map .infos-map a:hover{
     color: #030C40;
     background-color: #ffffff;
 }
@@ -569,7 +575,7 @@ section#acces {
 
 /* DEBUT: Scroll annimation */
 
-#herbergements .container, #actualites .container, #offre .container, #reservations .container, #acces .container{
+#herbergements .container, #actualites .container, #offre .container, #reservations .container{
     animation: none;
     opacity: 0;
 }

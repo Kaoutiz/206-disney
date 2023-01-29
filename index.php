@@ -589,61 +589,63 @@
     <!-- END: Réservations -->
 
     <!-- BEGIN: Accès -->
-    <section id="acces">
-    <h2 class="text-center">Des mesures d'hygiène et de sécurité</h2>
-        <div class="hygiene-acces mt-3 mb-4">
-            <div class="container">
-                <div class="card mb-3">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <img src="assets/images/hygiene-mask.png" alt="Port du masque recommandé">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body">
-                                <h3 class="card-title text-uppercase">Port du masque recommandé</h3>
-                                <p class="card-text">Conformément aux recommandations de Santé Publique France, le port du masque n’est plus obligatoire à Disneyland Paris. Le port du masque reste recommandé notamment durant la Parade et le spectacle nocturne Disney Illuminations, et dans les transports publics (navettes).</p>
+    <section id="acces-hygiene">
+        <div class="container">
+            <h2 class="text-center">Des mesures d'hygiène et de sécurité</h2>
+            <div class="hygiene-acces mt-3 mb-4">
+                    <div class="card mb-3">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="assets/images/hygiene-mask.png" alt="Port du masque recommandé">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h3 class="card-title text-uppercase">Port du masque recommandé</h3>
+                                    <p class="card-text">Conformément aux recommandations de Santé Publique France, le port du masque n’est plus obligatoire à Disneyland Paris. Le port du masque reste recommandé notamment durant la Parade et le spectacle nocturne Disney Illuminations, et dans les transports publics (navettes).</p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="card mb-3">
-                    <div class="row">
-                        <div class="col-md-8">
-                            <div class="card-body">
-                                <h3 class="card-title text-uppercase">Distributeurs de Gel Hydroalcoolique</h3>
-                                <p class="card-text">Plus de 2000 stations de gel hydroalcoolique seront disponibles à travers la destination (Parcs, Hôtels, coulisses, etc…) notamment à l’entrée et à la sortie de chaque attraction, boutique, restaurant et salle de spectacle.</p>
+                    <div class="card mb-3">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h3 class="card-title text-uppercase">Distributeurs de Gel Hydroalcoolique</h3>
+                                    <p class="card-text">Plus de 2000 stations de gel hydroalcoolique seront disponibles à travers la destination (Parcs, Hôtels, coulisses, etc…) notamment à l’entrée et à la sortie de chaque attraction, boutique, restaurant et salle de spectacle.</p>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-md-4">
-                            <img src="assets/images/hygiene-hands.png" alt="Port du masque recommandé">
-                        </div>
-                    </div>
-                </div>
-                <div class="card mb-3">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <img src="assets/images/hygiene-products.png" alt="Port du masque recommandé">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body">
-                                <h3 class="card-title text-uppercase">Mesures de nettoyage renforcées</h3>
-                                <p class="card-text">Disneyland Paris augmentera la fréquence des mesures de nettoyage, en plus des standards de propreté déjà mis en place. Avant sa réouverture, des zones ciblées – telles que les cuisines, les installations sanitaires et les attractions – seront nettoyées en profondeur.</p>
+                            <div class="col-md-4">
+                                <img src="assets/images/hygiene-hands.png" alt="Port du masque recommandé">
                             </div>
                         </div>
                     </div>
-                </div>
+                    <div class="card mb-3">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="assets/images/hygiene-products.png" alt="Port du masque recommandé">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h3 class="card-title text-uppercase">Mesures de nettoyage renforcées</h3>
+                                    <p class="card-text">Disneyland Paris augmentera la fréquence des mesures de nettoyage, en plus des standards de propreté déjà mis en place. Avant sa réouverture, des zones ciblées – telles que les cuisines, les installations sanitaires et les attractions – seront nettoyées en profondeur.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
             </div>
         </div>
-        <div class="map-acces">
-            <div class="container">
-                <h2 class="blue-back text-center">Le parc n'attend plus que vous !</h2>
-                <div class="d-flex justify-content-center mb-5">
-                    <img src="assets/images/disney-map.jpg" alt="Carte de DisneyLand Paris">
-                </div>
-                <div class="infos-map text-center">
-                    <p>Partez à l'aventure et rejoignez l'univers insolites de tous vos héros et heroïnes préféré.es ! Vos rêves deviennent réalité, écrivez votre propre histoire.</p>
-                    <a href="#" class="btn">Explorer la carte</a>
-                </div>
+    </section>
+    <section id="acces-map">
+        <div class="container">
+            <div class="map-acces">
+                    <h2 class="blue-back text-center">Le parc n'attend plus que vous !</h2>
+                    <div class="d-flex justify-content-center mb-5">
+                        <img src="assets/images/disney-map.jpg" alt="Carte de DisneyLand Paris">
+                    </div>
+                    <div class="infos-map text-center">
+                        <p>Partez à l'aventure et rejoignez l'univers insolites de tous vos héros et heroïnes préféré.es ! Vos rêves deviennent réalité, écrivez votre propre histoire.</p>
+                        <a href="#" class="btn">Explorer la carte</a>
+                    </div>
             </div>
         </div>
     </section>
