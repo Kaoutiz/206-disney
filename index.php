@@ -90,8 +90,8 @@
 
     <!-- BEGIN: Herbergements -->
     <section id="herbergements">
+        <h2 class="blue-back text-center">Trouvez l'hébergement idéal !</h2>
         <div class="container">
-            <h2 class="blue-back text-center">Trouvez l'hébergement idéal !</h2>
             <p class="blue-back text-center sub-title">Repérez la chambre, le bungalow ou la suite Disney qu'il vous faut : notre gamme répond à tous les goûts et tous les budgets !</p>
             <div class="d-flex justify-content-between mb-5">
                 <img src="assets/images/chambre-bungalows.jpg" alt="Chambres et bungalows">
@@ -115,8 +115,46 @@
 
     <!-- BEGIN: Offres -->
     <section id="offres">
-        <div id="container">
-            <!-- Content here -->
+        <h2>Nos offres</h2>
+        <div class="container">
+            <div class="offres-wrapper d-flex flex-column flex-sm-column flex-md-row flex-xl-row justify-content-between">
+                <div class="card mb-4 mb-sm-4 mb-md-0 mb-xl-0">
+                    <h3 class="card-title">Magic flex</h3>
+                    <img class="card-img-top" src="assets/images/pass-argent.jpg" alt="Pass Disneyland Paris - Magic Flex">
+                    <div class="card-body">
+                        <div class="card-text text-center">
+                            <p><span class="price-month">24€</span>/mois* <br/> après un versement initial de 60€</p>
+                            <p>OU</p>
+                            <p><span class="price-total">319€</span> /an</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-4 mb-sm-4 mb-md-0 mb-xl-0">
+                    <h3 class="card-title">Magic plus</h3>
+                    <img class="card-img-top" src="assets/images/pass-gold.jpg" alt="Chateau Disneyland Paris pour ses 30ans">
+                    <div class="card-body">
+                        <div class="card-text text-center">
+                            <p><span class="price-month">29€</span>/mois* <br/> après un versement initial de 60€</p>
+                            <p>OU</p>
+                            <p><span class="price-total">369€</span> /an</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-4 mb-sm-4 mb-md-0 mb-xl-0">
+                    <h3 class="card-title">infinity</h3>
+                    <img class="card-img-top" src="assets/images/pass-infinity.jpg" alt="Attraction train de la mine Disneyland Paris">
+                    <div class="card-body">
+                        <div class="card-text text-center">
+                            <p><span class="price-month">40€</span> /mois* <br/> après un versement initial de 60€</p>
+                            <p>OU</p>
+                            <p><span class="price-total">499€</span> /an</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center">
+                    <a href="#"><button class="btn btn-primary rounded-pill mt-4">Voir les avantages</button></a>
+            </div>
         </div>
     </section>
     <!-- END: Offres -->
@@ -553,9 +591,67 @@
     <!-- END: Réservations -->
 
     <!-- BEGIN: Accès -->
-    <section id="acces">
-        <div id="container">
-            <!-- Content here -->
+    <section id="acces-hygiene">
+        <h2 class="text-center">Des mesures d'hygiène et de sécurité</h2>
+        <div class="container">
+            <div class="hygiene-acces mt-3 mb-4">
+                <div class="card mb-3">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="assets/images/hygiene-mask.png" alt="Port du masque recommandé">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h3 class="card-title text-uppercase">Port du masque recommandé</h3>
+                                <p class="card-text">Conformément aux recommandations de Santé Publique France, le port du masque n’est plus obligatoire à Disneyland Paris. Le port du masque reste recommandé notamment durant la Parade et le spectacle nocturne Disney Illuminations, et dans les transports publics (navettes).</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h3 class="card-title text-uppercase">Distributeurs de Gel Hydroalcoolique</h3>
+                                <p class="card-text">Plus de 2000 stations de gel hydroalcoolique seront disponibles à travers la destination (Parcs, Hôtels, coulisses, etc…) notamment à l’entrée et à la sortie de chaque attraction, boutique, restaurant et salle de spectacle.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="assets/images/hygiene-hands.png" alt="Port du masque recommandé">
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="assets/images/hygiene-products.png" alt="Port du masque recommandé">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h3 class="card-title text-uppercase">Mesures de nettoyage renforcées</h3>
+                                <p class="card-text">Disneyland Paris augmentera la fréquence des mesures de nettoyage, en plus des standards de propreté déjà mis en place. Avant sa réouverture, des zones ciblées – telles que les cuisines, les installations sanitaires et les attractions – seront nettoyées en profondeur.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <a href="#"><button class="btn btn-primary rounded-pill">En savoir plus</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="acces-map">
+        <h2 class="blue-back text-center">Le parc n'attend plus que vous !</h2>
+        <div class="container">
+            <div class="map-acces">
+                <div class="d-flex justify-content-center mb-5">
+                    <img src="assets/images/disney-map.jpg" alt="Carte de DisneyLand Paris">
+                </div>
+                <div class="infos-map text-center">
+                    <p>Partez à l'aventure et rejoignez l'univers insolites de tous vos héros et heroïnes préféré.es ! Vos rêves deviennent réalité, écrivez votre propre histoire.</p>
+                    <a href="#" class="btn">Explorer la carte</a>
+                </div>
+            </div>
         </div>
     </section>
     <!-- END: Accès -->

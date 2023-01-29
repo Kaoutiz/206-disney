@@ -369,6 +369,117 @@ section#herbergements button{
 
 /* FIN: HEBERGEMENT */
 
+
+/* DÉBUT : OFFRES */
+#offres h2{
+    text-align: center;
+}
+#offres h3{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    position: absolute;
+    background-color: #ffffff;
+    border: solid #030C40 1px;
+    border-radius: 8px 0 8px 0;
+    padding: 4px;
+    top: -16px;
+    left: -8px;
+}
+#offres .container .offres-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#offres .container .card{
+    width: 300px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    transition: box-shadow 0.5s;
+}
+
+#offres .container .card img {
+    border-radius: 5% 2% 40% 40% / 5% 2% 6% 6%;
+}
+
+#offres .container .card p{
+    padding: 10px 0 10px 10px;
+    line-height: 20px;
+}
+
+#offres .card-body .price-month {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#offres .card-body .price-total {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* FIN : OFFRES */
+
+
+/* DEBUT: ACCES */
+
+#acces-hygiene .hygiene-acces .card{
+    border: solid #030C40 2px;
+    margin: 0 80px 0 80px;
+}
+
+#acces-hygiene .hygiene-acces .card img {
+    width: 160px;
+    margin-left: 40px;
+}
+
+#acces-hygiene .hygiene-acces .card h3{
+    font-size: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+#acces-hygiene .hygiene-acces .card p{
+    line-height: 20px;
+    text-align: justify;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+#acces-map{
+    background: #030C40;
+    color: #ffffff;
+    padding-top: 20px;
+    width: 100%;
+}
+
+#acces-map img{
+    width: 70%;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+#acces-map .infos-map a{
+    width: 200px;
+    margin: 2px 0 10px 0;
+    color: #ffffff;
+    border-radius: 20px;
+    border: solid 1px #ffffff;
+}
+
+#acces-map .infos-map a:hover{
+    color: #030C40;
+    background-color: #ffffff;
+}
+
+
+/* FIN: ACCES */
+
+
+
 /* DEBUT: RESPONSIVE */
 @media screen and (max-width: 930px) {
 
@@ -402,9 +513,18 @@ section#herbergements button{
 
     #actualites .card{
         margin-bottom: 20px;
+        width: 100% !important;
     }
 
     /* FIN: ACTUALITE */
+
+    /* DEBUT: OFFRES */
+
+    #offres .container .card{
+        width: 100%;
+    }
+
+    /* FIN: OFFRES */
 
     /* DEBUT: RESERVATION */
 
@@ -433,12 +553,21 @@ section#herbergements button{
     }
 
     /* FIN: RESERVATION */
+
+    #acces-hygiene img{
+        margin-left: 0 !important;
+    }
+
+    #acces-hygiene .col-md-4{
+        display: flex;
+        justify-content: center;
+    }
   }
 /* FIN: RESPONSIVE */
 
 /* DEBUT: Scroll annimation */
 
-#herbergements .container, #actualites .container, #offre .container, #reservations .container, #acces .container{
+#herbergements .container, #actualites .container, #acces-hygiene .container, #reservations .container, #offres .container, #acces-map .container, #footer-section .container{
     animation: none;
     opacity: 0;
 }
