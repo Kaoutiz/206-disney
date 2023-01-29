@@ -110,6 +110,3 @@
         <p class="pt-4 text-center text-white text-uppercase">Disneyland paris | ©UEL206 - Semaine 5</p>
     </div>
 </footer>
-
-<!-- CSS -->
-<link rel="stylesheet" href="assets/css/footer-styles.css">

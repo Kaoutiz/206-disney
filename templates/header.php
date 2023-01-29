@@ -1,4 +1,3 @@
-<link rel="stylesheet" href="assets/css/header.css">
 <header id="accueil">
     <!-- Header and Banner here -->
     <div class="header bg-light py-3">
